@@ -15,9 +15,9 @@ import fitz  # PyMuPDF for PDF text extraction
 import textwrap
 
 # --- Config ---
-PROJECT_ID = os.getenv("PROJECT_ID", "eight-brothers")
-REGION = os.getenv("REGION", "us-central1")
-MODEL_NAME = "gemini-2.5-flash-preview-05-20"
+PROJECT_ID = os.getenv("PROJECT_ID", "your_project_id")
+REGION = os.getenv("REGION", "your_region")
+MODEL_NAME = "your_model"
 
 app = Flask(__name__)
 UPLOAD_FOLDER = "uploads"
